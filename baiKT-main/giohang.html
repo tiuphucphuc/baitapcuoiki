@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/js/bootstrap.min.js"
+    />
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-6.1.2-web/fontawesome-free-6.1.2-web/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-6.1.2-web/fontawesome-free-6.1.2-web/js/all.min.js"
+    />
+    <link rel="stylesheet" href="css/giohang.css" />
+    <title>giohang</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nd">
+        <header class="d-flex justify-content-between align-items-center">
+          <div class="logo">
+            <img src="anh/screenshot_1661496722.png" alt="" />
+          </div>
+          <div class="menu">
+            <a href="trang chu.html" class="px-4 fs-5 text-dark">Trang Chủ</a>
+            <a href="sanpham.html" class="px-4 fs-5">Sản Phẩm</a>
+            <a href="lienhe.html" class="px-4 fs-5">Về Chúng Tôi</a>
+          </div>
+
+            <div class="box">
+            <div class="container-1">
+                <span class="icon"><i class="fa fa-search"></i></span>
+                <input type="search" id="search" placeholder="Cappuccino.." />
+            </div>
+            </div>
+          <div class="contact">
+            <a href="chitiet.html"><i class="fa-solid fa-bag-shopping"></i></a>
+          </div>
+        
+        </header>
+      </div>
+      <div class="nen1">
+      <div class="left-column">
+        <p class="chu">
+          <a href="tin tuc.html"><h1>Bạn nên uống 1 cốc</h1></a> <h1 class="chu2"> coffee </h1><h1>vào buổi sáng</h1>
+        </p>
+        <p class="chu1">Tăng năng suất của bạn và  trạng của bạn <br> với một ly cà phê vào buổi sáng </p>
+       
+        <div class="cainut"><a href="" class="cainut1">Order now <img src="anh/Group (1) 1.png" alt=""></a>
+        
+        </div>
+      </div>
+      
+      <div class="right-column">
+        <a href="gioithieu.html"> <img src="anh/screenshot_1661584382.png" alt=""></a>
+      </div>
+      <div class="sanpham1">
+      <h2 class="sanpham">Sản phẩm phổ biến</h2>
+      <div class="anh4"> <img src="anh/card_product_1.png" alt=""></div>
+      <div class="anh5"><img src="anh/card_product_2.png" alt=""></div>
+      <div class="anh6"><img src="anh/card_product_3.png" alt=""></div>
+      <div class="anh7"></div>
+      </div>
+       </div>
+
+       <div class="khung2">
+        <h2 class="khu1">Hướng dẫn mua đồ</h2>
+        <div class="khun1"> <img src="anh/khung1.png" alt=""> <h5>Chọn coffee</h5></div>
+        <div class="khun2"><img src="anh/khung2.png" alt=""> <h5>Chúng tôi giao nó cho bạn</h5></div>
+        <div class="khun3"><img src="anh/khung3.png" alt=""><a href="chitiet.html"> <h5>Bạn thưởng thức coffee</h5></a></div>
+       </div>
+
+                            <div class="anhtintuc">
+                                <h1 class="text-center">Giỏ hàng</h1>
+                                <div class="row">
+                                    <div class="col col-md-12">
+                                        <table class="table table-bordered">
+                                            <thead>
+                                                <tr>
+                                                    <th>STT</th>
+                                                    <th>Ảnh đại diện</th>
+                                                    <th>Tên sản phẩm</th>
+                                                    <th>Số lượng</th>
+                                                    <th>Đơn giá</th>
+                                                    <th>Thành tiền</th>
+                                                    <th>Hành động</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody id="datarow">
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>
+                                                        <img class="anh1467" src="anh/card_product_1.png" class="hinhdaidien">
+                                                    </td>
+                                                    <td>cafe</td>
+                                                    <td class="text-right">2</td>
+                                                    <td class="text-right">11,800,000.00</td>
+                                                    <td class="text-right">23,600,000</td>
+                                                    <td>
+                                                        <!-- Nút xóa, bấm vào sẽ xóa thông tin dựa vào khóa chính `sp_ma` -->
+                                                        <a id="delete_1" data-sp-ma="2" class="btn btn-danger btn-delete-sanpham">
+                                                            <i class="fa fa-trash" aria-hidden="true"></i> Xóa
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>
+                                                        <img class="anh1467" src="anh/card_product_1.png" class="hinhdaidien">
+                                                    </td>
+                                                    <td>cafe</td>
+                                                    <td class="text-right">4</td>
+                                                    <td class="text-right">2,699,000.00</td>
+                                                    <td class="text-right">1,0796,000</td>
+                                                    <td>
+                                                        <!-- Nút xóa, bấm vào sẽ xóa thông tin dựa vào khóa chính `sp_ma` -->
+                                                        <a id="delete_2" data-sp-ma="6" class="btn btn-danger btn-delete-sanpham">
+                                                            <i class="fa fa-trash" aria-hidden="true"></i> Xóa
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>
+                                                        <img class="anh1467" src="anh/card_product_1.png" class="hinhdaidien">
+                                                    </td>
+                                                    <td>cafe</td>
+                                                    <td class="text-right">8</td>
+                                                    <td class="text-right">1,4990,000.00</td>
+                                                    <td class="text-right">119,920,000</td>
+                                                    <td>
+                                                        <!-- Nút xóa, bấm vào sẽ xóa thông tin dựa vào khóa chính `sp_ma` -->
+                                                        <a id="delete_3" data-sp-ma="4" class="btn btn-danger btn-delete-sanpham">
+                                                            <i class="fa fa-trash" aria-hidden="true"></i> Xóa
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+
+                                        <a href="trang chu.html" class="btn btn-warning btn-md"><i class="fa fa-arrow-left"
+                                                aria-hidden="true"></i>&nbsp;Quay
+                                            về trang chủ</a>
+                                        <a href="lienhe.html" class="btn btn-primary btn-md"><i class="fa fa-shopping-cart"
+                                                aria-hidden="true"></i>&nbsp;Thanh toán</a>
+                                    </div>
+                                </div>
+                            </div>            
+
+
+     
+
+<div>
+    <img class="anhkhung6" src="anh/anhkhung7.png" alt="">
+   </div>
+   <div class="cainut2">
+    <h1 class="cainut12">Subscribe to get 50% discount price</h1>
+    <input class="cainut3" type="search" id="search" placeholder="Email address..." />
+    <div class="cainut7"><a href="giohang.html" class="cainut1">Order now <img src="anh/Group (1) 1.png" alt=""></a>
+    <div>
+
+    </div>
+   </div>
+</body>
+</html>
